@@ -10,7 +10,6 @@ RUN npm install --production
 
 # Copy application code
 COPY src/ ./src/
-COPY database/ ./database/
 
 # Create database directory
 RUN mkdir -p ./database
