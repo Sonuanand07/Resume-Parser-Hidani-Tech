@@ -1,0 +1,258 @@
+{
+  "resumes": [
+    {
+      "id": 1,
+      "name": "Priya Sharma",
+      "email": "priya.sharma@email.com",
+      "phone": "+919876543210",
+      "salary": "75 LPA",
+      "yearsOfExperience": 7,
+      "resumeSkills": ["Java", "Spring Boot", "MySQL", "PostgreSQL", "UDB", "MS SQL Server", "Docker", "Kubernetes", "Apache Kafka", "REST API", "Jenkins", "JUnit", "Mockito"],
+      "education": ["B.Tech Computer Science"],
+      "matchingJobs": [
+        {
+          "jobId": "CAP001",
+          "role": "Senior Backend Software Engineer",
+          "company": "Capgemini",
+          "aboutRole": "Design and build scalable, high-performance backend systems for financial applications. Architect microservices-based Core Banking solutions.",
+          "salary": "₹61,087 - ₹104,364 per month",
+          "skillsAnalysis": [
+            {
+              "skill": "Core Java",
+              "presentInResume": true
+            },
+            {
+              "skill": "Spring Boot",
+              "presentInResume": true
+            },
+            {
+              "skill": "MySQL",
+              "presentInResume": true
+            },
+            {
+              "skill": "PostgreSQL",
+              "presentInResume": true
+            },
+            {
+              "skill": "UDB",
+              "presentInResume": true
+            },
+            {
+              "skill": "MS SQL Server",
+              "presentInResume": true
+            },
+            {
+              "skill": "Docker",
+              "presentInResume": true
+            },
+            {
+              "skill": "Kubernetes",
+              "presentInResume": true
+            },
+            {
+              "skill": "Apache Kafka",
+              "presentInResume": true
+            },
+            {
+              "skill": "REST API",
+              "presentInResume": true
+            },
+            {
+              "skill": "Jenkins",
+              "presentInResume": true
+            },
+            {
+              "skill": "GitLab CI",
+              "presentInResume": false
+            },
+            {
+              "skill": "Azure",
+              "presentInResume": false
+            }
+          ],
+          "matchingScore": 92,
+          "yearsRequired": 7,
+          "yearsCandidate": 7
+        },
+        {
+          "jobId": "SPACEX001",
+          "role": "Full Stack Software Engineer",
+          "company": "SpaceX",
+          "aboutRole": "Design, develop, and continuously improve software solutions for building and flying reusable rockets.",
+          "salary": "$120,000 - $170,000 per year",
+          "skillsAnalysis": [
+            {
+              "skill": "Python",
+              "presentInResume": true
+            },
+            {
+              "skill": "C#",
+              "presentInResume": false
+            },
+            {
+              "skill": ".NET",
+              "presentInResume": false
+            },
+            {
+              "skill": "SQL",
+              "presentInResume": true
+            },
+            {
+              "skill": "REST API",
+              "presentInResume": true
+            },
+            {
+              "skill": "Docker",
+              "presentInResume": true
+            },
+            {
+              "skill": "Kubernetes",
+              "presentInResume": true
+            },
+            {
+              "skill": "UI/UX Design",
+              "presentInResume": false
+            }
+          ],
+          "matchingScore": 62,
+          "yearsRequired": 5,
+          "yearsCandidate": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Rajesh Kumar",
+      "email": "rajesh.kumar@email.com",
+      "phone": "+919876543211",
+      "salary": "45 LPA",
+      "yearsOfExperience": 4,
+      "resumeSkills": ["Java", "Spring Boot", "MySQL", "Docker", "REST API", "JUnit", "Git", "Agile"],
+      "education": ["B.Tech Computer Science"],
+      "matchingJobs": [
+        {
+          "jobId": "ADOBE001",
+          "role": "Software Engineer",
+          "company": "Adobe",
+          "aboutRole": "Develop high-performance, reliable, testable code. Participate in all aspects of software development.",
+          "salary": "$139,000 - $257,550 annually",
+          "skillsAnalysis": [
+            {
+              "skill": "Python",
+              "presentInResume": false
+            },
+            {
+              "skill": "Java",
+              "presentInResume": true
+            },
+            {
+              "skill": "C++",
+              "presentInResume": false
+            },
+            {
+              "skill": "React",
+              "presentInResume": false
+            },
+            {
+              "skill": "Angular",
+              "presentInResume": false
+            },
+            {
+              "skill": "REST API",
+              "presentInResume": true
+            },
+            {
+              "skill": "Docker",
+              "presentInResume": true
+            },
+            {
+              "skill": "DevOps",
+              "presentInResume": false
+            }
+          ],
+          "matchingScore": 50,
+          "yearsRequired": 5,
+          "yearsCandidate": 4
+        },
+        {
+          "jobId": "FISHEYE001",
+          "role": "C++ Software Engineer",
+          "company": "FishEye Software",
+          "aboutRole": "Design, implement, and test C++ software for real-time and embedded defense systems.",
+          "salary": "$80,000 - $190,000 per year",
+          "skillsAnalysis": [
+            {
+              "skill": "C++",
+              "presentInResume": false
+            },
+            {
+              "skill": "Linux",
+              "presentInResume": true
+            },
+            {
+              "skill": "Git",
+              "presentInResume": true
+            },
+            {
+              "skill": "Agile",
+              "presentInResume": true
+            },
+            {
+              "skill": "RTOS",
+              "presentInResume": false
+            },
+            {
+              "skill": "Real-time Systems",
+              "presentInResume": false
+            }
+          ],
+          "matchingScore": 30,
+          "yearsRequired": 4,
+          "yearsCandidate": 4
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "jobId": "CAP001",
+      "role": "Senior Backend Software Engineer",
+      "company": "Capgemini",
+      "salary": "₹61,087 - ₹104,364 per month",
+      "yearsOfExperience": 7,
+      "aboutRole": "Capgemini is seeking a talented Senior Backend Software Engineer to join our Financial Services division. Design and build scalable, high-performance backend systems for banking and wealth management applications. Architect microservices-based solutions with expertise in Core Java, Spring Boot, and database optimization.",
+      "requiredSkills": ["Core Java", "Spring Boot", "MySQL", "PostgreSQL", "UDB", "MS SQL Server", "Docker", "Kubernetes", "Apache Kafka", "REST API", "JUnit", "Mockito", "Git"],
+      "optionalSkills": ["Python", "Azure", "Jenkins", "GitLab CI", "Terraform", "AI/ML"]
+    },
+    {
+      "jobId": "SPACEX001",
+      "role": "Full Stack Software Engineer",
+      "company": "SpaceX",
+      "salary": "$120,000 - $170,000 per year",
+      "yearsOfExperience": 5,
+      "aboutRole": "SpaceX is seeking a Full Stack Software Engineer to design, develop, and continuously improve software solutions ensuring our vehicles can be built and flown reliably. Own all aspects of software engineering and product development. Work on highly reliable software solutions.",
+      "requiredSkills": ["Python", "SQL", "REST API", "Full Stack Development", "Git", "Docker", "Kubernetes"],
+      "optionalSkills": ["C#", ".NET", "AngularJS", "TypeScript", "UI/UX Design", "System Design"]
+    },
+    {
+      "jobId": "ADOBE001",
+      "role": "Software Engineer",
+      "company": "Adobe",
+      "salary": "$139,000 - $257,550 annually",
+      "yearsOfExperience": 5,
+      "aboutRole": "Adobe is seeking talented and passionate Software Engineers across all organizations. Develop high-performance, reliable, testable, and maintainable code. Participate in all aspects of software development activities, including design, coding, code review, testing, and bug fixing.",
+      "requiredSkills": ["Python", "Java", "C++", "React", "Angular", "REST API", "DevOps", "Docker"],
+      "optionalSkills": ["TypeScript", "Next.js", "AWS", "AI/ML", "System Design"]
+    },
+    {
+      "jobId": "FISHEYE001",
+      "role": "C++ Software Engineer",
+      "company": "FishEye Software",
+      "salary": "$80,000 - $190,000 per year",
+      "yearsOfExperience": 4,
+      "aboutRole": "FishEye Software has an immediate opening for a skilled C++ Software Engineer to support the Cooperative Engagement Capability (CEC) Program. Design, implement, and test C++ software for real-time and embedded defense systems. Participate in design, code reviews, and verification.",
+      "requiredSkills": ["C++", "Linux", "Git", "Agile", "RTOS", "Real-time Systems", "Embedded Programming"],
+      "optionalSkills": ["Python", "System Design", "Performance Optimization", "Defense/Aerospace Systems"]
+    }
+  ]
+}

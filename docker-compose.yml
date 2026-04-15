@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  resume-parser:
+    build: .
+    container_name: resume-parser-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATABASE_PATH=/app/database/resume_matcher.db
+      - LOG_LEVEL=info
+    volumes:
+      - ./database:/app/database
+    networks:
+      - resume-parser-network
+    restart: unless-stopped
+
+  # Optional: Add a database viewer (for development)
+  db-viewer:
+    image: rhuss/docker-sqlite-web:latest
+    container_name: resume-db-viewer
+    ports:
+      - "8080:8080"
+    environment:
+      - SQLITE_DATABASE=/app/database/resume_matcher.db
+    volumes:
+      - ./database:/app/database
+    networks:
+      - resume-parser-network
+    depends_on:
+      - resume-parser
+    profiles:
+      - dev
+
+networks:
+  resume-parser-network:
+    driver: bridge
